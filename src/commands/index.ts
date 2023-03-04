@@ -3,6 +3,7 @@ import chalk from "chalk";
 import { readConfig } from "../config";
 import load from "../load";
 import { Conversation } from "../openai";
+import { prettifyAnswer } from "../prettifyAnswer";
 
 export default class Main extends Command {
   static strict = false;
@@ -36,7 +37,9 @@ export default class Main extends Command {
 
       const answer = await load(conversation.ask(question));
 
-      ux.log(chalk.cyan(`\nAI: ${answer.trim()}\n`));
+      const parsedAnswer = prettifyAnswer(answer.trim());
+
+      ux.log(chalk.cyan(`\nAI: ${parsedAnswer}\n`));
     }
   }
 }
