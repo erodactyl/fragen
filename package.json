@@ -1,6 +1,6 @@
 {
   "name": "fragen",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "AI search engine right in your terminal.",
   "author": "Erik Davtyan @erodactyl",
   "bin": {

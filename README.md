@@ -11,7 +11,7 @@ $ npm install -g fragen
 $ fragen COMMAND
 running command...
 $ fragen (--version)
-fragen/0.0.3 darwin-arm64 node-v16.16.0
+fragen/0.0.4 darwin-arm64 node-v16.16.0
 $ fragen --help [COMMAND]
 USAGE
   $ fragen COMMAND
@@ -40,7 +40,7 @@ DESCRIPTION
   Ask a question to the AI right from your terminal
 ```
 
-_See code: [dist/commands/index.ts](https://github.com/erodactyl/fragen/blob/v0.0.3/dist/commands/index.ts)_
+_See code: [dist/commands/index.ts](https://github.com/erodactyl/fragen/blob/v0.0.4/dist/commands/index.ts)_
 
 ## `fragen config`
 
@@ -54,5 +54,5 @@ DESCRIPTION
   Configure OpenAI API key.
 ```
 
-_See code: [dist/commands/config.ts](https://github.com/erodactyl/fragen/blob/v0.0.3/dist/commands/config.ts)_
+_See code: [dist/commands/config.ts](https://github.com/erodactyl/fragen/blob/v0.0.4/dist/commands/config.ts)_
 <!-- commandsstop -->
