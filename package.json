@@ -18,8 +18,6 @@
   ],
   "dependencies": {
     "@oclif/core": "^2",
-    "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^2.3.2",
     "chalk": "^4.1.2",
     "listr": "^0.14.3",
     "openai": "^3.2.1"
@@ -46,10 +44,6 @@
     "dirname": "fragen",
     "default": ".",
     "commands": "./dist/commands",
-    "plugins": [
-      "@oclif/plugin-help",
-      "@oclif/plugin-plugins"
-    ],
     "topicSeparator": " ",
     "topics": {
       "hello": {
